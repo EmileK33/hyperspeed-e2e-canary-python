@@ -8,7 +8,6 @@ package-mode = true
 packages = [{ include = "app" }]
 
 [tool.poetry.dependencies]
-six = "*"
 python = "^3.11"
 
 [tool.poetry.group.dev.dependencies]
