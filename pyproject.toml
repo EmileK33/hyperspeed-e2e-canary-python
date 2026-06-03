@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "canary-notes"
+version = "0.1.0"
+description = "Canary Notes API"
+authors = []
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
