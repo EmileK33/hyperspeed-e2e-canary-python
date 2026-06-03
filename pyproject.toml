@@ -5,6 +5,7 @@ description = "Canary Notes API"
 authors = []
 
 [tool.poetry.dependencies]
+idna = "*"
 six = "*"
 python = "^3.11"
 
