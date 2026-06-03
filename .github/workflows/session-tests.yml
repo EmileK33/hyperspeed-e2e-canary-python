@@ -16,5 +16,6 @@ jobs:
         with:
           python-version: '3.11'
       - run: pipx install poetry || pip install poetry
+      - run: poetry lock --no-update || poetry lock
       - run: poetry install --no-root --no-interaction
       - run: poetry run pytest
