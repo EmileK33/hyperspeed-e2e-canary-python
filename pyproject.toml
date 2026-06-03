@@ -8,6 +8,7 @@ package-mode = true
 packages = [{ include = "app" }]
 
 [tool.poetry.dependencies]
+packaging = "*"
 certifi = "*"
 idna = "*"
 six = "*"
